@@ -1,0 +1,30 @@
+.movie-carousel-container {
+    position: absolute;
+    top: 40%; /* Adjusted top position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+}
+
+  
+.custom-carousel {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.carousel-item-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img {
+    width: 300px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensure images cover the container while maintaining aspect ratio */
+    transition: transform 1s
+}
+
+.carousel-item {
+    transition: transform 2s ease; /* Smooth transition effect */
+}

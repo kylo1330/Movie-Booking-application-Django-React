@@ -1,0 +1,64 @@
+/* WelcomeSection.css */
+
+.welcome-section {
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  text-align: center;
+  top: 370px;
+  transform: translateY(50%);
+  font-weight: bold; /* Makes the text bold */
+}
+
+
+.coming {
+  position: absolute;
+  top: 100px; /* Adjust this value to position it correctly */
+  left: 40px; /* Adjust this value to position it correctly */
+}
+
+/* Other styles... */
+
+.quote {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Additional styles for bottom bar */
+.bottom-bar {
+  background-color: #151718; /* Gray background color */
+  height: 68px; /* Height of the bottom bar */
+  width: 100%; /* Full width */
+  position: fixed; /* Fixed position at the bottom */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* Brand text color */
+  text-transform: uppercase;
+}
+
+
+
+.welcome-section.admin-login {
+  margin-top: 50px; /* Adjust as needed */
+
+}
+
+.custom-btn {
+  background-color: #333; /* Darker than #A9A9A9 */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #000; /* Even darker on hover */
+}
