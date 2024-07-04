@@ -15,7 +15,7 @@ const WelcomeSection = () => {
         <h2>Welcome to our Movie Booking Website!</h2>
         <p>Explore the latest movies{!isSuperuser && ' and book your tickets now'}</p>
         {!isSuperuser && (
-          <Link to="/user/Listpost" className="custom-btn">
+          <Link to="/user/UserMovieList" className="custom-btn">
       Book Tickets
     </Link>
 
